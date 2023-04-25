@@ -22,4 +22,7 @@ Copies text from one PK2 to another. It is recommended to use iSRO as the source
 - TRSRO -> 13
 - ruSRO -> 12
 
-Copyright (c) ProjectHax LLC 2023
+License
+---
+
+MIT
