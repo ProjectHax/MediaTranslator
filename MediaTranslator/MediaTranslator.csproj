@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <StartupObject>MediaTranslator.App</StartupObject>
+    <ApplicationIcon>PH.ico</ApplicationIcon>
+    <Copyright>ProjectHax LLC</Copyright>
+    <PackageIcon>PH.png</PackageIcon>
+    <SignAssembly>False</SignAssembly>
+    <AssemblyOriginatorKeyFile>Z:\Key\code.pfx</AssemblyOriginatorKeyFile>
+    <DelaySign>False</DelaySign>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="PH.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft-WindowsAPICodePack-Shell" Version="1.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="PH.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
