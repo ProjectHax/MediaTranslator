@@ -10,7 +10,7 @@ namespace MediaTranslator
 {
     public partial class MainWindow : Window
     {
-        const string VERSION = "1.0.0";
+        const string VERSION = "1.0.1";
         int src_index = 8, dest_index = 8;
 
         List<string> files = new List<string> {
@@ -21,6 +21,8 @@ namespace MediaTranslator
             "textquest_speech&name.txt",
             "textuisystem.txt",
             "textzonename.txt",
+            "texthelp.txt",
+            "textevent.txt"
         };
 
         public MainWindow()
